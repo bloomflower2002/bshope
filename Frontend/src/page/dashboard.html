@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bshope</title>
+        <link rel="stylesheet" href="../style/dashboard.css">
+        <link rel="stylesheet" href="../style/footer.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="../../public/bshopewhite.png" alt="BShop Logo" class="bshope-img">
+            </div>
+            <ul class="navlinks">
+                <li><a href="auctions.html">Auctions</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="nav-actions">
+                <div class="search-toggle">
+                    <select id="categorySelect" aria-label="Search category">
+                        <option value="all">All</option>
+                        <option value="electronic">Electronic</option>
+                        <option value="art">Art</option>
+                        <option value="home-accessories">Home Accessories</option>
+                        <option value="perfume">Perfume</option>
+                        <option value="watch">Watch</option>
+                    </select>
+                    <input type="text" class="search-bar-inline" placeholder="Search..." id="searchInput">
+                    <a href="#" class="search-icon-btn" aria-label="Search" id="searchToggle">
+                        <i class="fas fa-search"></i>
+                    </a>
+                </div>
+                <a href="#" class="language-btn">EN</a>
+                <a href="signin.html" class="signin-btn">Sign In</a>
+            </div>
+        </nav>
+
+        <h1 class="quote"><span class="highlight">Bid </span>anywhere, anytime, on <span class="highlight">anything</span></h1>
+        <div>
+            <p class="quote-text1">The ultimate online auction platform where you can bid on a wide range of products from the comfort of your own home.</p>
+            <p class="quote-text">Join our community of passionate bidders and experience the thrill of winning at BShope!</p>
+        </div>
+        <div class="slider-container">
+            <div class="slider">
+                <div class="slide active">
+                    <div class="slide-item"><img src="../../public/airpod.jpg" alt="Airpod auction"></div>
+                    <div class="slide-item"><img src="../../public/iphone.jpg" alt="iPhone auction"></div>
+                    <div class="slide-item"><img src="../../public/mac.jpg" alt="Mac auction"></div>
+                     <div class="slide-item"><img src="../../public/BMW.jpg" alt="iPhone auction"></div>
+                   
+                </div>
+                <div class="slide">
+                    <div class="slide-item"><img src="../../public/fridge.webp" alt="Shopbrand"></div>
+                    <div class="slide-item"><img src="../../public/makeupkit.jpg" alt="Makeup kit auction"></div>
+                    <div class="slide-item"><img src="../../public/ps5.jpg" alt="Airpod auction"></div>
+                    <div class="slide-item"><img src="../../public/porsche.jpg" alt="Mac auction"></div>
+                </div>
+                <div class="slide">
+                    <div class="slide-item"><img src="../../public/BMW.jpg" alt="Luxury car auction"></div>
+                    <div class="slide-item"><img src="../../public/airpod.jpg" alt="Airpod auction"></div>
+                    <div class="slide-item"><img src="../../public/iphone.jpg" alt="iPhone auction"></div>
+                    <div class="slide-item"><img src="../../public/mac.jpg" alt="Mac auction"></div>
+                </div>
+            </div>
+            <button class="slider-button prev" aria-label="Previous slide">&#10094;</button>
+            <button class="slider-button next" aria-label="Next slide">&#10095;</button>
+            <div class="slider-dots">
+                <span class="dot active" data-index="0"></span>
+                <span class="dot" data-index="1"></span>
+                <span class="dot" data-index="2"></span>
+            </div>
+        </div>
+
+        <section class="faq-section">
+            <h2>Frequently Asked Questions</h2>
+            <div class="faq-list">
+                <details class="faq-item" open>
+                    <summary>How do I start bidding?</summary>
+                    <p>Create an account, verify your details, and place your first bid on any live auction.</p>
+                </details>
+                <details class="faq-item">
+                    <summary>Is there a fee to join?</summary>
+                    <p>Joining Bshope is free, and membership perks are available for users who want extra benefits.</p>
+                </details>
+                <details class="faq-item">
+                    <summary>Can I bid from my phone?</summary>
+                    <p>Yes, the platform is mobile-friendly, so you can browse and bid anytime from your device.</p>
+                </details>
+            </div>
+        </section>
+
+        <section class="review-section">
+            <h2>What Our Users Say</h2>
+            <div class="review-form">
+                <input type="text" placeholder="Write your review here..." class="review-input">
+                <button type="button" class="review-submit">Submit</button>
+            </div>
+            <div class="review-grid">
+                <article class="review-card">
+                    <div class="review-stars">★★★★★</div>
+                    <p>“Bshope made bidding feel exciting and effortless. I found amazing deals in just a few clicks.”</p>
+                    <h3>Sarah M.</h3>
+                </article>
+                <article class="review-card">
+                    <div class="review-stars">★★★★★</div>
+                    <p>“The interface is smooth, and the live auctions are so easy to follow. Highly recommended.”</p>
+                    <h3>Daniel K.</h3>
+                </article>
+                <article class="review-card">
+                    <div class="review-stars">★★★★★</div>
+                    <p>“I love the variety of products and the secure bidding experience. It feels trustworthy.”</p>
+                    <h3>Amina R.</h3>
+                </article>
+            </div>
+        </section>
+
+        <script src="../js/dashboard.js"></script>
+        <div data-footer></div>
+        <script src="../js/footer-loader.js"></script>
+    </body>
+</html>

@@ -1,0 +1,150 @@
+body {
+    margin: 0;
+    padding: 96px 0 0;
+    font-family: Arial, sans-serif;
+    background: radial-gradient(circle at 50% 0%,
+        rgba(122,92,255,.25),
+        transparent 45%),
+      linear-gradient(
+        180deg,
+        #1B1E29 0%,
+        #161922 50%,
+        #14161F 100%
+      );
+    color: #ffffff;
+}
+
+.about-page {
+    max-width: 1150px;
+    margin: 0 auto;
+    padding: 48px 24px 80px;
+}
+
+.hero {
+    display: grid;
+    grid-template-columns: 1.3fr 0.9fr;
+    gap: 40px;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.hero-text h1 {
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+
+.hero-text p {
+    color: #fcfdfd;
+    font-size: 18px;
+    line-height: 1.8;
+    max-width: 620px;
+}
+
+.hero-image img {
+    width: 100%;
+    max-width: 460px;
+    display: block;
+    border-radius: 24px;
+}
+
+.mission-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    margin-bottom: 60px;
+}
+
+.mission-card {
+    background:
+    radial-gradient(circle at 50% 0%,
+    rgba(122,92,255,.25),
+    transparent 45%),
+    linear-gradient(
+    180deg,
+    #1B1E29 0%,
+    #161922 50%,
+    #14161F 100%
+    );
+    border-radius: 24px;
+    padding: 32px;
+    box-shadow: 0 20px 60px rgba(9, 38, 33, 0.06);
+    text-align: center;
+}
+
+.mission-card i {
+    font-size: 28px;
+    color: #fa6204;
+    margin-bottom: 18px;
+}
+
+.mission-card h2 {
+    margin-bottom: 12px;
+    font-size: 22px;
+}
+
+.mission-card p {
+    color: white;
+    line-height: 1.75;
+}
+
+.story-section h2 {
+    font-size: 34px;
+    margin-bottom: 24px;
+}
+
+.story-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.story-step {
+    background:
+    radial-gradient(circle at 50% 0%,
+    rgba(122,92,255,.25),
+    transparent 45%),
+    linear-gradient(
+    180deg,
+    #1B1E29 0%,
+    #161922 50%,
+    #14161F 100%
+    );
+    border-radius: 24px;
+    padding: 28px;
+    box-shadow: 0 20px 60px rgba(9, 38, 33, 0.06);
+}
+
+.story-step span {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: #fa6204;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 18px;
+}
+
+.story-step h3 {
+    margin: 0 0 12px;
+    font-size: 20px;
+}
+
+.story-step p {
+    color: white;
+    line-height: 1.7;
+}
+
+@media (max-width: 900px) {
+    .hero,
+    .story-grid,
+    .mission-section {
+        grid-template-columns: 1fr;
+    }
+
+    .hero-image img {
+        max-width: 100%;
+    }
+}

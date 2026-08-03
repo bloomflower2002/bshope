@@ -1,0 +1,89 @@
+/* Navbar styles extracted from dashboard.css for reuse */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 1000;
+    list-style-type: none;
+    margin: 0;
+    padding: 3px 30px 2px 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: 'Arial', sans-serif;
+    gap: 30px;
+    background:
+    radial-gradient(circle at 50% 0%,
+    rgba(122,92,255,.25),
+    transparent 45%),
+    linear-gradient(
+    180deg,
+    #1B1E29 0%,
+    #161922 50%,
+    #14161F 100%
+    );
+}
+
+.logo {
+    padding: 0;
+}
+
+.bshope-img {
+    height: 80px;
+    width: auto;
+    object-fit: contain;
+}
+
+.navlinks {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 10px;
+    gap: 20px;
+    margin: 0;
+    flex: 1;
+    font-size: 20px;
+}
+
+.navlinks li {
+    list-style: none;
+    margin: 0;
+}
+
+.navlinks a {
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.navlinks a:hover {
+    color: #fa6204;
+}
+
+.nav-actions {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-left: auto;
+}
+.signin-btn {
+    text-decoration: none;
+    color: white;
+    font-weight: 600 !important;
+     font-size: 16px;
+     margin-bottom:12px !important;
+    padding: 8px 14px;
+    border-radius: 20px;
+}
+.signin-btn {
+    border: 1px solid #fa6204;
+    background: #fa6204;
+}
+
+
+.signin-btn:hover {
+    background: #ff7a2f;
+    color: #ffffff !important;
+}

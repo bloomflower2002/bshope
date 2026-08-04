@@ -6,40 +6,16 @@
         <title>Bshope</title>
         <link rel="stylesheet" href="../style/dashboard.css">
         <link rel="stylesheet" href="../style/footer.css">
+        <link rel="stylesheet" href="../style/navbar.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap" rel="stylesheet">
     </head>
     <body>
-        <nav class="navbar">
-            <div class="logo">
-                <img src="../../public/bshopewhite.png" alt="BShop Logo" class="bshope-img">
-            </div>
-            <ul class="navlinks">
-                <li><a href="auctions.html">Auctions</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-            <div class="nav-actions">
-                <div class="search-toggle">
-                    <select id="categorySelect" aria-label="Search category">
-                        <option value="all">All</option>
-                        <option value="electronic">Electronic</option>
-                        <option value="art">Art</option>
-                        <option value="home-accessories">Home Accessories</option>
-                        <option value="perfume">Perfume</option>
-                        <option value="watch">Watch</option>
-                    </select>
-                    <input type="text" class="search-bar-inline" placeholder="Search..." id="searchInput">
-                    <a href="#" class="search-icon-btn" aria-label="Search" id="searchToggle">
-                        <i class="fas fa-search"></i>
-                    </a>
-                </div>
-                <a href="#" class="language-btn">EN</a>
-                <a href="signin.html" class="signin-btn">Sign In</a>
-            </div>
-        </nav>
+        
+       <div data-navbar></div>
+    <script src="../js/navbar-loader.js"></script>
 
         <h1 class="quote"><span class="highlight">Bid </span>anywhere, anytime, on <span class="highlight">anything</span></h1>
         <div>
@@ -52,8 +28,7 @@
                     <div class="slide-item"><img src="../../public/airpod.jpg" alt="Airpod auction"></div>
                     <div class="slide-item"><img src="../../public/iphone.jpg" alt="iPhone auction"></div>
                     <div class="slide-item"><img src="../../public/mac.jpg" alt="Mac auction"></div>
-                     <div class="slide-item"><img src="../../public/BMW.jpg" alt="iPhone auction"></div>
-                   
+                    <div class="slide-item"><img src="../../public/BMW.jpg" alt="iPhone auction"></div>
                 </div>
                 <div class="slide">
                     <div class="slide-item"><img src="../../public/fridge.webp" alt="Shopbrand"></div>
@@ -68,8 +43,8 @@
                     <div class="slide-item"><img src="../../public/mac.jpg" alt="Mac auction"></div>
                 </div>
             </div>
-            <button class="slider-button prev" aria-label="Previous slide">&#10094;</button>
-            <button class="slider-button next" aria-label="Next slide">&#10095;</button>
+            <button class="slider-button prev" aria-label="Previous slide">❮</button>
+            <button class="slider-button next" aria-label="Next slide">❯</button>
             <div class="slider-dots">
                 <span class="dot active" data-index="0"></span>
                 <span class="dot" data-index="1"></span>

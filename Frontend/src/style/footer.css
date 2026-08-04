@@ -67,10 +67,13 @@
 }
 @media (max-width: 840px) {
     .footer-content {
-        grid-template-columns: 1fr;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding-left:30px;
+        gap:32px;
     }
     .footer-links,
     .footer-contact {
-        padding-top: 12px;
+        padding-top: 5px;
     }
 }

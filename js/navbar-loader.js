@@ -2,12 +2,11 @@ document.addEventListener('DOMContentLoaded', () => {
     const navContainer = document.querySelector('[data-navbar]');
     if (!navContainer) return;
 
-    // 1. First, inject layout elements into target DOM hook cleanly
     navContainer.innerHTML = `
         <nav class="navbar">
             <div class="logo">
-                <a href="dashboard.html">
-                    <img src="../../public/bshopewhite.png" alt="BShop Logo" class="bshope-img">
+                <a href="index.html">
+                    <img src="../image/bshopewhite.png" alt="BShop Logo" class="bshope-img">
                 </a>
             </div>
             <div class="mobile-actions">
@@ -29,7 +28,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 <li class="mobile-signin"><a href="signin.html" aria-label="Sign In"><i class="fas fa-user"></i></a></li>
             </ul>
 
-            <!-- Added Fixed Structure: Mobile Search Form Field wrapper missing from original layout markup -->
             <div class="mobile-search-panel" id="mobileSearchPanel">
                 <div class="search-toggle">
                     <select id="mobileCategorySelect" aria-label="Search category mobile">

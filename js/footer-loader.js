@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
     <footer class="site-footer">
         <div class="footer-content">
             <div class="footer-brand">
-                <img src="../../public/bshopewhite.png" alt="BShop Logo">
+                <img src="../image/bshopewhite.png" alt="BShop Logo">
                 <p>Bid smart, win big. BShope brings you trusted auctions, top products, and support around the clock.</p>
             </div>
             <div class="footer-links">

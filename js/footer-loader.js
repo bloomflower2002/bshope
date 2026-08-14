@@ -11,8 +11,8 @@ document.addEventListener('DOMContentLoaded', () => {
             </div>
             <div class="footer-links">
                 <h3>Quick Links</h3>
-                <a href="dashboard.html">Home</a>
-                <a href="product.html">Product</a>
+                <a href="index.html">Home</a>
+                <a href="auctions.html">Auctions</a>
                 <a href="about.html">About Us</a>
                 <a href="contact.html">Contact</a>
             </div>

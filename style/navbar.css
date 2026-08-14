@@ -261,7 +261,7 @@ body {
 /* ==========================================================================
    3. MOBILE & TABLET RESPONSIVE SYSTEM OVERRIDES
    ========================================================================== */
-@media (max-width: 768px) {
+@media (max-width: 900px) {
     .navbar {
         padding: 0 20px;
         height: 70px;
@@ -272,7 +272,7 @@ body {
     }
 
     .nav-actions {
-        display: none; /* Strip standard layout components */
+        display: none; 
     }
 
     .mobile-actions {
@@ -312,8 +312,8 @@ body {
         display: none;
         position: absolute;
         top: 70px;
-        left: 16px;
-        right: 16px;
+        left: 0;
+        right: 0;
         width: calc(100% - 32px);
         flex-direction: column;
         align-items: flex-start;

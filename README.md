@@ -5,7 +5,7 @@ A responsive navigation bar with integrated search and menu functionality built 
 The BShop Navigation Bar is a fully responsive, mobile-first navigation component built with pure HTML, CSS, and vanilla JavaScript. It provides a seamless user experience across all devices with intelligent search and menu interactions - all without any external dependencies or frameworks.
 
 How It Works
-Mobile View (≤ 860px):
+Mobile View (≤ 900px):
 
 Collapsed: Shows logo, hamburger menu icon, and language button
 

@@ -76,7 +76,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (mobileSearchToggle && navLinks && mobileSearchPanel) {
         mobileSearchToggle.addEventListener('click', (event) => {
             event.stopPropagation();
-     f       event.preventDefault();
+            event.preventDefault();
 
             const isMenuExpanded = mobileSearchToggle.getAttribute('aria-expanded') === 'true';
             

@@ -51,3 +51,6 @@ Copy the HTML structure to your page
 Copy the CSS to your stylesheet
 
 Copy the JavaScript to your script file
+
+📄 License
+This project is proprietary and confidential. Unauthorized copying, distribution, or use of this code is strictly prohibited.

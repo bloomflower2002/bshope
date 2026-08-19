@@ -1,5 +1,6 @@
 BShop Navigation Bar
-A responsive navigation bar with integrated search and menu functionality built with HTML, CSS, and JavaScript.
+BShop is a modern online auction platform that connects buyers and sellers through an intuitive, user-friendly interface. The platform allows users to browse products, place bids, and manage their shopping experience in a secure environment.
+
 Home page Screenshot
 <img width="1885" height="911" alt="image" src="https://github.com/user-attachments/assets/2a217bdb-a773-4215-9c6d-6bdb4bebd6d1" />
 
